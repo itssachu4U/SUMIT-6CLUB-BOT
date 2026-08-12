@@ -17,9 +17,9 @@ from telegram.error import Forbidden, BadRequest, TimedOut, NetworkError
 # ================= CONFIG =================
 BOT_TOKEN = "8373194456:AAEB1LNo4ZYtrCeTQs9n0tSN4nTapn-HhBM"
 ADMIN_ID = "8749071857"
-APK_PATH = "6 CLUB AI TOOL.apk"
+APK_PATH = "𝗜𝗡999 𝗩𝗜𝗣 𝗟𝗘𝗔𝗞 𝗛𝗔𝗖𝗞💎.apk"
 VOICE_PATH = "VOICEHACK.ogg"
-VIDEO_PATH = "SUMIT-VDO.mp4"
+VIDEO_PATH = "BITTU-DHANI.mp4"
 DB_NAME = "users.db"
 # ==========================================
 
@@ -65,7 +65,7 @@ async def send_welcome_package(user, context: ContextTypes.DEFAULT_TYPE):
     add_user(user.id)
 
     welcome_message = f"""
-👋🏻 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 {user.mention_html()} 𝐁𝐑𝐎𝐓𝐇𝐄𝐑 𝐓𝐎 𝗢𝗨𝗥 - 6 𝐂𝐋𝐔𝐁 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐇𝐀𝐂𝐊 𝐒𝐄𝐑𝐕𝐄𝐑 🤑
+👋🏻 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 {user.mention_html()} 𝐁𝐑𝐎𝐓𝐇𝐄𝐑 𝐓𝐎 𝗢𝗨𝗥 - 𝗜𝗡999 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐇𝐀𝐂𝐊 𝐒𝐄𝐑𝐕𝐄𝐑 🤑
 """
 
     try:
@@ -84,9 +84,8 @@ async def send_welcome_package(user, context: ContextTypes.DEFAULT_TYPE):
                 await context.bot.send_video(
                     chat_id=user.id,
                     video=video,
-                    caption="""Panel Activate Guide 6 𝐂𝐋𝐔𝐁 Diamond Panel activate
-करने का तरीका इस video मे है. पहले video देख े💰 
-How To Activate 6 CLUB Panel 💰
+                    caption="""JISKO LAGTA HAI HACK FAKE HAI YE VDO UNKE LIYE HACK 100% WORKING 📈, पहले video देख े💰 
+How To Activate 𝗜𝗡999 Panel 💰
 Pliz Video Ko Pura Dekhna
        💯 Setup Video 💯,"""
                 )
@@ -107,7 +106,7 @@ Pliz Video Ko Pura Dekhna
 
 ♻सहायता के लिए @bittucxd
 🔴हैक का उपयोग कैसे करें
-https://www.6clubg.com/#/register?invitationCode=576845658542""",
+https://www.hsjrtyznvwbkqxd.com/#/register?invitationCode=686527199608""",
                 )
         except Exception as e:
             logging.error(f"APK send error: {e}")
@@ -120,7 +119,7 @@ https://www.6clubg.com/#/register?invitationCode=576845658542""",
                     chat_id=user.id,
                     voice=voice,
                     caption="""🎙 सदस्य 9X गुना लाभ का प्रमाण 👇🏻
-https://www.6clubg.com/#/register?invitationCode=576845658542
+https://www.hsjrtyznvwbkqxd.com/#/register?invitationCode=686527199608
 
 ♻सहायता के लिए @bittucxd
 लगातार नंबर पे नंबर जीतना 🤑♻👑""",
